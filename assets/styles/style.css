@@ -1,0 +1,76 @@
+.container {
+  font: 30px "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.header,
+.left,
+.right,
+.footer_block {
+  text-align: center;
+}
+
+.header {
+  padding: 30px;
+  background-color: rgba(148, 155, 162, 0.414);
+}
+
+.contain {
+  display: flex;
+  height: 500px;
+}
+
+.left {
+  flex-basis: 66%;
+  background-color: beige;
+}
+
+.title {
+  height: 48%;
+  padding: 20px;
+}
+
+.left_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.left_block_1,
+.left_block_2 {
+  padding: 20px;
+  flex-grow: 1;
+  background-color: bisque;
+}
+
+.left_block_1 {
+  margin: 20px 10px 20px 20px;
+}
+
+.left_block_2 {
+  margin: 20px 20px 20px 10px;
+}
+
+.left_block_3 {
+  flex-basis: 100%;
+  padding: 20px;
+  background-color: bisque;
+  margin: 0px 20px 20px 20px;
+}
+
+.right {
+  flex-basis: 34%;
+  background-color: rgb(166, 203, 166);
+}
+.footer {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: rgba(148, 155, 162, 0.414);
+}
+
+.footer_block {
+  padding: 35px;
+  flex-grow: 1;
+  background-color: rgb(253, 254, 248);
+}
